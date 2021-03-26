@@ -19,8 +19,7 @@
 	],
 	"ci_config": {
 		"output_directories": ["templates", "desktop"],
-		"build_setup_cmd": "npm install -g gatsby-cli",
-		"build_cmd": "gatsby build",
+		"build_cmd": "./ci/build.sh",
 		"serve_setup_cmd": "echo setup",
 		"serve_cmd": "echo serve"
 	}
