@@ -19,8 +19,9 @@
 	],
 	"ci_config": {
 		"output_directories": ["templates", "desktop"],
+		"build_setup_cmd": "echo setup",
 		"build_cmd": "./ci/build.sh",
-		"serve_setup_cmd": "echo setup",
-		"serve_cmd": "echo serve"
+		"serve_setup_cmd": "./ci/serve_setup.sh",
+		"serve_cmd": "./ci/serve.sh"
 	}
 }
