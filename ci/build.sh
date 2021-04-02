@@ -1,5 +1,4 @@
 npm install
-npm install -g n
-n latest
+npm i -D prettier@1.13.7
 npm install -g gatsby-cli
 gatsby build
