@@ -8,6 +8,7 @@
 	"templateVersion": 8,
 	"requireArtifactBuild": false,
 	"ci_config": {
+		"base_image_tag": "node-12.18",
 		"build_setup_cmd": "echo setup",
 		"build_cmd": "ci/build.sh",
 		"serve_setup_cmd": "ci/serve_setup.sh",
