@@ -9,10 +9,9 @@
 	"requireArtifactBuild": false,
 	"ci_config": {
 		"base_image_tag": "node-12.18",
-		"build_setup_cmd": "echo setup",
-		"build_cmd": "ci/build.sh",
-		"serve_setup_cmd": "ci/serve_setup.sh",
-		"serve_cmd": "ci/serve.sh",
+		"build_cmd": "npm install -g gatsby-cli && gatsby build",
+		"serve_setup_cmd": "echo setup",
+		"serve_cmd": "echo serve",
 		"artifactStructure": {
 			"assets": [
 				{
