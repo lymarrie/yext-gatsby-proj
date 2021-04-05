@@ -9,7 +9,7 @@
 	"requireArtifactBuild": false,
 	"ci_config": {
 		"base_image_tag": "node-12.18",
-		"build_cmd": "npm install -g gatsby-cli && gatsby build",
+		"build_cmd": "npm install && npm install -g gatsby-cli && gatsby build",
 		"serve_setup_cmd": "echo setup",
 		"serve_cmd": "echo serve",
 		"artifactStructure": {
